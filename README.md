@@ -6,7 +6,7 @@ This is a feature package for dividing stereo cameras, which means dividing a co
 OpenCV == 3.2.0 (Tested in opencv==4.5, it causes bugs)
 ROS2
 # How to install
-cd ros2_camera_split    
+cd ros2_split_node  
 colcon build
 # How to use
 ros2 run camera_split camera_split_node --ros-args -p left_cam_file:=file:///home..../left.yaml -p right_cam_firl:=file:///home/..../right.yaml
